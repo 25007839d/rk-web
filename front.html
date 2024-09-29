@@ -1,0 +1,164 @@
+<!--Tow type of tag open<br/> and close (<b>....</b>)-->
+<!--bold tag  for bold the element-->
+
+<!--Two types of html page Head(we use meta tags, user can not see) and Body(use inside the page)-->
+<!--html basic structure-->
+<!--html tag-->
+<html> <!--root element-->
+    <head><!-- contains the header information-->
+        <title>Home Page</title>
+    </head>
+        <body><!-- hold the content of the page-->
+            <b>b tag is a bold tag and inline bh..</b>
+            <br/>br tag break the line <br/>
+            <strong>strong tag bold and inline bh.. and SEO frendly</strong>
+            <hr/>hr tag provide seprate line and open<hr width="50%" align="left"/>
+            <b><i>i rag italic the content with bold tag</i></b>
+            <br/>
+            <u>u tag use for underline and inline</u>
+            <h1>h1 to h6 header tag are block element</h1>
+            <p>
+                p tag for paragraph and block tag
+                support mulitiline
+            </p>
+            <img src="image/a.png" width="800" height="400" title="ai" alt="artificial"/>
+            <br>
+            <img src="https://th.bing.com/th/id/OIP.DpcLyyRCeTWoiiMNdCTXxQHaEK?w=274&h=180&c=7&r=0&o=5&dpr=1.4&pid=1.7" width="800" height="400" title="ai" alt="artificial"/>
+
+            <ol type="A">
+                <li>ol tag for order list</li>
+                <li>item </li>
+                <li>in li tag list iteam gives default 123 secquence</li>
+            </ol>
+
+            <ul  type="square">
+                <li>ul tag for unordered list</li>
+                <li>item </li>
+                <li>in li tag list iteam gives default 123 secquence</li>
+            </ul>
+
+            <table widh="600" height="100"  bgcolor="blue" border="1" align="center">
+                <tr>
+                    <th bgcolor="yellow" border="1" align="center">th table heding eith boldb  </th>
+                    <td>td table data</td>
+
+                </tr>
+                 <tr>
+                    <th>home</th>
+                    <td>about</td>
+
+                </tr>
+            </table>
+
+        <table  border="1" width="500" align="center" cellpadding="10" cellspacing="0">
+            <thead>
+                <tr>
+                    <th colspan="7"> may 2024 </th>
+                </tr>
+                 <tr>
+                    <th>Su</th>
+                    <th>Mo</th>
+                     <th>Tu</th>
+                     <th>We</th>
+                     <th>Th</th>
+                     <th>Fr</th>
+                     <th>Sa</th>
+                 </tr>
+            </thead>
+            <tbody>
+            <tr align="center">
+                    <td>6</td>
+                    <td rowspan="2">7</td>
+                     <td>8</td>
+                     <td>9</td>
+                     <td>10</td>
+                     <td>11</td>
+                     <td>12</td>
+                </tr>
+                <tr align="center">
+                    <td>13</td>
+
+                     <td>15</td>
+                     <td>16</td>
+                     <td>17</td>
+                     <td>18</td>
+                     <td>19</td>
+                </tr>
+            </tbody>
+            </table>
+
+<!--        div tag for divide the structure use in CSS-->
+        <div>
+            <div>
+            </div>
+        </div>
+
+<!--        form tag to create form -->
+        <fieldset > fieldset tag cover the box for form
+            <legend>Inquery Form also use as h2 tag</legend>
+        <form method="" action="">
+            <h2>Inquery Form</h2>
+            <label>Name single line lable</label><br/>
+            <input type="text" pattern="[a-zA-Z]{3,40}" required placeholder="enter your name" name="use_name_for_get_data_for_backend"/><br/>
+            <label>Gender</label><br/>
+            <input type="radio" value="male" name="gender"/>Male
+            <input type="radio" value="Female" name="gender"/>Femail<br/>
+            <label>Qnt</label><br/>
+            <input type="number" min="1" max="10"/><br/>
+            <br/>
+            <label>Services</label>
+            <input type="checkbox" value="web"/>web
+            <input type="checkbox" value="SEO"/>SEO
+            <input type="checkbox" value="Data migration"/>Data migration
+            <input type="checkbox" value="ETL"/>ETL
+            <input type="checkbox" value="Dashboards"/>Dashboards
+            <input type="checkbox" value="BI"/>BI
+            <br/>
+            <label>Date</label><br/>
+            <input type="date" name="use_date_for_get_data_for_backend"/>
+            <label>Email</label><br/>
+            <input type="email" placeholder="enter your email" name="use_email_for_get_data_for_backend"/>
+            <label>Email</label><br/>
+            <input type="tel" pattern="[0-9]{10}" title="enter valid 10 digit number" placeholder="enter your phone" name="use_email_for_get_data_for_backend"/>
+            <br/>
+            <label>Message</label><br/>
+            <textarea>textarea tag use for multi line input</textarea><br/>
+            <label>Photo</label>
+            <input type="file"/>
+            <button type="submit">Upload</button>
+            <br/>
+            <label>Password</label>
+            <input type="password"/><br/>
+            <br/>
+            <label>Country</label>
+            <select>
+                <optgroup label="Asia"></optgroup>
+                <option> ----Select Country----</option>
+                <option value="India"> India</option>
+                <option value="India"> India</option>
+                <option value="India"> India</option>
+                <option value="India"> India</option>
+                </optgroup>
+                <optgroup label="USA"></optgroup>
+                <option> ----Select Country----</option>
+                <option value="London"> London</option>
+                <option value="London"> London</option>
+                <option value="London"> London</option>
+                <option value="London"> London</option>
+                </optgroup>
+            </select><br/>
+
+            <br/>
+            <button type="submit"> Save also same as Go button</button><br/><br/>
+            <input type="submit" value="Go">
+        </form>
+        </fieldset>
+
+
+
+    </body>
+
+</html>
+
+<!--html basic tags-->
+<!--bheavior of tags inline(it will take character space only) and block(It take whole line)-->
