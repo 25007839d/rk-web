@@ -1,0 +1,8 @@
+.carousel-inner{
+    width: 100%;
+    height: 80vh;
+}
+.card-body img{
+     width: 30%;
+    height: 120px;
+}
