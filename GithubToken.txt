@@ -1,0 +1,5 @@
+Token 
+
+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
+
+git remote set-url origin https://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@github.com/25007839d/rk-web
